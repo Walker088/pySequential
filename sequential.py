@@ -30,6 +30,7 @@ class sequentailMaker():
                         else:
                             csf.write('{}\n'.format(sfLst[id]))
                 copyfile(outputFile, outputFile.replace('.srt', '.txt'))
+                self.sequential = 1
 
 if __name__ == '__main__':
     log.info('Welcom to srt sequential number maker ヽ(́◕◞౪◟◕‵)ﾉ')
